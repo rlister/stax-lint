@@ -1,6 +1,6 @@
 module Stax
   class Stack
-    desc 'checkov', 'run cfn-checkov on template'
+    desc 'checkov', 'run checkov on template'
     def checkov
       debug("checkov #{stack_name}")
       file = Tempfile.create(["#{stack_name}-", '.json'])
