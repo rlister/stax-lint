@@ -2,3 +2,4 @@
 
 require_relative 'lint/version'
 require_relative 'lint/cfn-lint'
+require_relative 'lint/checkov'
